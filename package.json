@@ -1,0 +1,24 @@
+{
+  "name": "student_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamilyaHalyyeva/student_CRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JamilyaHalyyeva/student_CRUD/issues"
+  },
+  "homepage": "https://github.com/JamilyaHalyyeva/student_CRUD#readme",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "uuid": "^9.0.1"
+  }
+}
