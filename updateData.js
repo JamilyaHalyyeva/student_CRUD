@@ -15,7 +15,7 @@ export default async function updateData(info) {
     let user;
     let isAMatch=false;
     info.forEach((element) => {
-      if (element.id === answer.id) {
+      if (element.id === answer.id && !isAMatch) {
         user = element;
         isAMatch=true;
         updateDetails(user, info);
@@ -23,7 +23,7 @@ export default async function updateData(info) {
       
     });
     if (!isAMatch) {
-        console.log(`${answer.id} has no match`);
+        console.log(`${answer.id} has no match.`);
     }
     
 
